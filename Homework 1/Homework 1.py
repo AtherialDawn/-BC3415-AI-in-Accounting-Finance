@@ -3,7 +3,7 @@ import google.generativeai as genai
 import os
 import markdown2
 
-api = "AIzaSyCEsQLEfb07F3TDcauwIjDoOZsZ79iAksM"
+api = ""
 genai.configure(api_key=api)
 client = genai.GenerativeModel('gemini-1.5-flash')
 
