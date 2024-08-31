@@ -3,7 +3,7 @@ import google.generativeai as genai
 import os
 import markdown2
 
-genai.configure(api_key = API_KEY)
+genai.configure(api_key = os.getenv('API_KEY'))
 client = genai.GenerativeModel('gemini-1.5-flash')
 
 app = Flask(__name__)
