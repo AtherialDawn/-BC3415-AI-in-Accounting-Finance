@@ -1,8 +1,5 @@
 from flask import Flask,render_template,request
 import google.generativeai as genai
-import os
-import markdown2
-import textblob
 
 api = "AIzaSyCEsQLEfb07F3TDcauwIjDoOZsZ79iAksM"
 genai.configure(api_key=api)
